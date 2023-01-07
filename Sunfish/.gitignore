@@ -1,0 +1,8 @@
+book
+evdata
+hash
+nconf
+
+*.o
+*.d
+*.log

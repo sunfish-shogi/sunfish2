@@ -1,0 +1,55 @@
+? 起動時パラメータ指定のバリデーション
+? USI
+- 香車2段目不成不生成
+* 時間制御
+* 序盤定跡
++ 機械学習
+	? 並列化
+- 入玉対策
+? 稲庭対策
+
++ CSAプロトコル
+	* 相手番千日手による対局停止
+	- reciever, sender をクラスに独立
+
+- 詰将棋
+	- df-pn
+
+* 確定手
+* 王手生成
+* CSA入出力
+* 千日手
+	* 探索中の王手千日手検出
+? 玉がいない場合
+? USI
+* 相手番思考
++ 置換表
+	? サイズ管理
+	* slot
+	? node数
+- 探索
+	* 差分計算
+	* 静止探索
+	+ ordering
+		* static exchange evaluation
+		* history heuristic
+		* killer move
+	+ pruning
+		* null move pruning
+		* futility pruning
+		? move count pruning
+		? static null move pruning
+		? distance pruning
+	+ extensions
+	* late move reduction
+	+ mate 1ply
+		- 無駄合判定
+	- mate 3ply
+	? singular extension
+	* SHEK
+	* recursive iterative-deepening search
+	* aspiration search
+	+ parallel search
+		* lockless hash
+		+ history
+			- 排他制御(?)
